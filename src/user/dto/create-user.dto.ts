@@ -1,6 +1,3 @@
-export class CreateUserDto {
-  email: string;
-  name: string;
-  password: string;
-  isAdmin: boolean;
-}
+import { BaseUserDto } from './base-user.dto'
+
+export class CreateUserDto extends BaseUserDto {}
